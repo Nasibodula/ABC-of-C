@@ -9,7 +9,7 @@ function Headbar() {
     { label: 'Sign Up', slug: '/signup' },
     { label: 'Log out', slug: '/splash' },
     { label: 'Search', slug: '/Search', icon: '#' },
-  ]);
+  ]);      
 
   var navigation = [];
   for (let i = 0; i < nav.length; i++) {
