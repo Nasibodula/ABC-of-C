@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useRef } from 'react';
+import { BrowserRouter as Router,Route , Routes, Link } from 'react-router-dom';
+// import googleicon from './ui/googleicon.jpg';
+// import image2 from './ui/image2.png';
+// import logo from './ui/logo.png';
+// import image4 from './ui/1.png';
+// import Homepage from  './screens/Homepage.js';
+import Login from './screens/login'
+import Signup from './screens/signup.js'
+// import Headbar from './screens/Headbar.js'
+// import Splash from './screens/splash.js';
+// import './css/style.css'
+import Splash from './screens/splash1.js';
+import logo from './ui/logo.png'
+import background from './ui/background.png'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+function App(){
+  return(
+    <div className='App'> 
+    <Homepage/>
+      {/* <Router>
+        <Routes>
+          <Route path="/login"  element={<Login/>}/> 
+          <Route path="/signup"  element={<Signup/>}/>  
+          <Route path="/"  element={<Splash/>}/> 
+        </Routes>  
+      </Router> */}
     </div>
   );
-}
-
+};
 export default App;
+
+    {/* <Router>
+    <Headbar/>
+       <Routes>
+        <Route exact path="/homepage" element={<Homepage/>}/>
+        <Route path="/login"  element={<Login/>}/> 
+        <Route path="/signup"  element={<Signup/>}/>  
+        <Route path="/splash"  element={<Splash/>}/> 
+        <Route path="/Get-started" element={<Homepage/>}/>
+      </Routes>  
+      </Router> */}
+   

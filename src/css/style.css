@@ -1,0 +1,285 @@
+body{
+  height: 100%;
+  margin: 0%;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000033;
+  font-family: "Jacques Francois-Regular", Helvetica;
+
+}
+.login form, .sign-up form {
+  width: 300px;
+  height: 400px;
+  padding: 60px 35px 36px 35px;
+  background: transparent;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(14, 9, 9, 0.3);
+  font-weight: 700;
+}
+.login form input, .sign-up form input{
+  width: 95%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 45px;
+  background-color: #d9d9d9;;
+  height: 30px;
+}
+.login form button, .sign-up form button{
+  width: 100%;
+  padding: 10px;
+  background-color: #0d0da4;;
+  color: #fff;
+  border: none;
+  border-radius: 45px;
+  cursor: pointer;
+}
+.login form .title, .sign-up form .title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+  font-size: 48px;
+  color: #0d0da4;
+
+}
+.login form .underline{
+  align-items: center;
+  width: 61px;
+  height: 6px;
+  background-color: #0d0da4;
+  border-radius: 9px;  
+  align-items: center;
+  gap: 9px;
+}
+.login form .credentials, .sign-up .credentials{
+  display: flex;
+  flex-direction: column ;
+  margin-top: 55px;
+  gap: 25px;
+}
+.login form .forgot-password span{
+  display: flex;
+  color: #0d0da4;
+}
+.login form .sign-up span{
+  justify-items: center;
+  color: #0d0da4;
+  gap: 30px;
+
+}
+.link{
+  color: #0d0da4;
+  text-decoration: none;
+}
+.sign-up .logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 0px;
+  width: 100%;
+
+}
+.sign-up img{
+  display: flex;
+  justify-self: center;
+  width: 15%;
+
+}
+.sign-up .googleicon{
+  position: absolute;
+  left: 520px;
+  top: 539px;
+  width: 6%;
+
+}
+.sign-up form .giticon{
+  position: absolute;
+  right: 520px;
+  top: 520px;
+  width: 6%;
+}
+.homepage{
+  display: flex;
+}
+.homepage .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.homepage  .container span.hello{
+  color: #FFF;
+  height: 89px;
+  font-size: 40px;
+  font-weight: 300;
+  position: absolute;
+  top: 72px;
+  left: 39px;
+}
+.homepage  .container span.dailypop{
+  color: #FFF;
+  width: 608px;
+  flex-shrink: 0;
+  font-size: 40px;
+  font-weight: 300;
+  position: absolute;
+  top: 130px;
+  left: 39px;
+}
+.homepage .container img.logo{
+  display: flex;
+  width: 95px;
+  align-items: flex-end;
+  position: absolute;
+  top: 72px;
+  right: 126px;
+  height: 100px; 
+}
+.homepage .container .middle img.image2{
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  top: 98px;
+  left: 360px;
+}
+.homepage .container .end img.image3{
+  position: absolute;
+  width: 200px;
+  height: 105px;
+  top: 518px;
+  right: 56px;
+  border-radius: 15px;
+}
+.homepage .container .middle span{
+  display: flex;
+  position: absolute;
+    width: 415px;
+    height: 137px;
+    left: 98px;
+    color: #FFF;
+    top: 430px;
+    line-height: normal;
+    font-family: Jacques Francois;    
+}
+.homepage .container .middle span.learn{
+  display: flex;
+  position: absolute;
+  width: 415px;
+  top: 360px;
+  font-size: 28px;
+  font-weight: 400;
+}
+.homepage .container .middle span.codecrunch{
+  top: 395px;
+  font-size: 28px;  
+  font-weight: 400;
+}
+
+.homepage .container .middle .rectangle{
+  background-color: #4d4dff;
+  border-radius: 80px;
+  margin: auto;
+  height: 290px;
+  position: absolute;
+  top: 195px;
+  left: 38px;
+  right: 38px;
+}
+.homepage .container .end .rectangle2{
+  background-color: #4d4dff;
+  border-radius: 50px;
+  margin: auto;
+  height: 160px;
+  position: absolute;
+  padding-top: 10px;
+  top: 500px;
+  left: 38px;
+  right: 38px;
+}
+.homepage .container .end span{
+  position: absolute;
+  width: 400px ;
+  height: 137px;
+  top: 600px;
+  left: 98px;
+  color: #FFF;
+}
+.homepage .container .end span.ctechnews{
+  top: 530px;
+  font-size: 28px;
+  font-weight: 400;  
+}
+.homepage .container .end span.hackingourbrain{
+  top: 580px;
+}
+.splash .image4{
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+} 
+.splash .header span.tittle{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  color:#d9d9d9;
+  font-family:Jacques Francois;
+  font-size: 42px;
+  font-weight: 700;
+  right: 390px;
+  top: 120px;
+  width: 566px; 
+  text-shadow: 16px 15px 2px  #4d4dff;
+}
+.splash .header .logo{
+  position: absolute;
+  left: 55px;
+  top: 70px
+}
+.splash  button{
+  position: absolute;
+  border-radius: 55px;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  color:#d9d9d9;
+  font-size: 50px;
+  font-family: Jacques Francois;
+  top: 600px;
+  right: 550px;
+}
+.headbar{
+  display: flex;
+  position: absolute;
+  box-shadow: 0 0 10px rgba(151, 139, 139, 0.3);
+  top: 0%;
+  width: 100%;
+  left: 0%;
+  height: 8%;
+  margin: 0%;
+}
+.headbar .title{
+  position: absolute;
+  font-size: 24px;
+  top: 30%;
+  left: 3%;
+}
+.headbar .ul{}
+.headerlist .navbar{
+ 
+}
+.headerlist .link{
+  position: absolute;
+  color: #ccc;
+}

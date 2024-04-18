@@ -1,0 +1,121 @@
+/* body{
+  display: flex;
+} */
+/* .homepage{
+  display: flex;
+}
+.homepage .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.homepage  .container span.hello{
+  color: #FFF;
+  height: 89px;
+  font-size: 40px;
+  font-weight: 300;
+  position: absolute;
+  top: 72px;
+  left: 39px;
+}
+.homepage  .container span.dailypop{
+  color: #FFF;
+  width: 608px;
+  flex-shrink: 0;
+  font-size: 40px;
+  font-weight: 300;
+  position: absolute;
+  top: 130px;
+  left: 39px;
+}
+.homepage .container img.logo{
+  display: flex;
+  width: 95px;
+  align-items: flex-end;
+  position: absolute;
+  top: 72px;
+  right: 126px;
+  height: 100px; 
+}
+.homepage .container .middle img.image2{
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  top: 98px;
+  left: 360px;
+}
+.homepage .container .end img.image3{
+  position: absolute;
+  width: 200px;
+  height: 105px;
+  top: 518px;
+  right: 56px;
+  border-radius: 15px;
+}
+.homepage .container .middle span{
+  display: flex;
+  position: absolute;
+    width: 415px;
+    height: 137px;
+    left: 98px;
+    color: #FFF;
+    top: 430px;
+    line-height: normal;
+    font-family: Jacques Francois;    
+}
+.homepage .container .middle span.learn{
+  display: flex;
+  position: absolute;
+  width: 415px;
+  top: 360px;
+  font-size: 28px;
+  font-weight: 400;
+}
+.homepage .container .middle span.codecrunch{
+  top: 395px;
+  font-size: 28px;  
+  font-weight: 400;
+}
+
+.homepage .container .middle .rectangle{
+  background-color: #4d4dff;
+  border-radius: 80px;
+  margin: auto;
+  height: 290px;
+  position: absolute;
+  top: 195px;
+  left: 38px;
+  right: 38px;
+}
+.homepage .container .end .rectangle2{
+  background-color: #4d4dff;
+  border-radius: 50px;
+  margin: auto;
+  height: 160px;
+  position: absolute;
+  padding-top: 10px;
+  top: 500px;
+  left: 38px;
+  right: 38px;
+}
+.homepage .container .end span{
+  position: absolute;
+  width: 400px ;
+  height: 137px;
+  top: 600px;
+  left: 98px;
+  color: #FFF;
+  /* font-family: Jacques Francois; */
+/* }
+.homepage .container .end span.ctechnews{
+  top: 530px;
+  font-size: 28px;
+  font-weight: 400;  
+}
+.homepage .container .end span.hackingourbrain{
+  top: 580px;
+}
+
+ */

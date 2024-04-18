@@ -1,0 +1,80 @@
+/* SPLASH */
+.splash{
+    overflow: hidden;
+}
+.splash .background{
+    height: 100%;
+    width: 100%;
+}
+.splash .section1 img{
+    top: 4%;
+    left: 45%;
+}
+.splash .section1 .title{
+    top :15%;
+    text-shadow: 16px 15px 2px  #4d4dff;
+    left: 40%;
+    color:#d9d9d9;
+    font-family:Jacques Francois;
+}
+
+/* LOGIN & SIGNUP */
+.login{}
+form{
+    width: 35%;
+    height: 80%;
+    top: 10%;
+    border-radius: 20px;
+    left: 32.5%;
+    box-shadow: 0 0 10px rgba(14, 9, 9, 0.3);
+}
+form img{
+    left: 37%;
+    top: 6%;
+}
+form .credentials{
+    flex-direction: column;
+    top: 35%;
+    left: 6%;
+
+}
+.signup form .credentials{
+    top: 30%;
+}
+form .credentials input{
+    flex-direction: column;
+    width: 90%;
+    padding: 3%;
+    border-radius: 45px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    background-color: #d9d9d9;
+    color: #4d4dff;
+}
+.signup .credentials input{
+    margin-bottom: 10px;
+
+}
+form .credentials button{
+    width: 95%;
+    padding: 3%;
+    background-color:  #4d4dff;
+    border-radius: 45px;
+    cursor: pointer;
+    margin-top: 5%;
+}
+.signup .credentials button{
+    margin-top: 0px;
+}
+form .icon{
+    top: 82%;
+}
+form .icon .icon1{   
+    width: 15%;
+    left: 15%;
+    margin-top: 4%;
+}
+form .icon .icon2{
+    width: 15%;
+    left:  70%;
+}
