@@ -20,7 +20,7 @@ function App(){
   return(
     <div className='App'>
      <Router>
-      <Header/>
+      <Headbar/>
         <Routes>
           <Route path="/"  element={<Splash/>}/>
           <Route exact path="/homepage" element={<Homepage/>}/>
