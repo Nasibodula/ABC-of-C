@@ -259,7 +259,7 @@ body{
   top: 600px;
   right: 550px;
 }
-.headbar{
+/* .headbar{
   display: flex;
   position: absolute;
   box-shadow: 0 0 10px rgba(151, 139, 139, 0.3);
@@ -282,4 +282,56 @@ body{
 .headerlist .link{
   position: absolute;
   color: #ccc;
+} */
+
+
+.headbar {
+  background-color: #333; /* Background color of the navbar */
+  padding: 10px 20px; /* Padding around the navbar */
+}
+
+.headbar a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Text color of links */
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.5rem; /* Font size of the title */
+  margin-right: 20px; /* Margin between the title and the navigation */
+}
+
+.ul {
+  list-style-type: none; /* Remove bullet points from the list */
+  display: flex; /* Display list items in a row */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.headerlist {
+  margin-right: 20px; /* Margin between each navigation item */
+}
+
+.link {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Text color of links */
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  margin-left: 5px; /* Margin between the icon and label */
+}
+
+/* Optional: Add hover effect */
+.link:hover {
+  opacity: 0.8; /* Reduce opacity on hover */
+}
+
+/* Optional: Style active link */
+.link.active {
+  font-weight: bold; /* Make active link bold */
 }
