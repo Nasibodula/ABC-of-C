@@ -10,6 +10,8 @@ import Signup from './screens/signup.js'
 import Headbar from './screens/Headbar.js'
 // import Splash from './screens/splash.js';
 // import './css/style.css'
+import '../css/sample.css';
+import '../css/style.css'
 import Splash from './screens/splash1.js';
 import logo from './ui/logo.png'
 import background from './ui/background.png'
