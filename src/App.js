@@ -4,7 +4,7 @@ import { BrowserRouter as Router,Route , Routes, Link } from 'react-router-dom';
 // import image2 from './ui/image2.png';
 // import logo from './ui/logo.png';
 // import image4 from './ui/1.png';
-// import Homepage from  './screens/Homepage.js';
+import Homepage from  './screens/Homepage.js';
 import Login from './screens/login'
 import Signup from './screens/signup.js'
 // import Headbar from './screens/Headbar.js'
