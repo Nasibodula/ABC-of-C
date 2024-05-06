@@ -22,11 +22,11 @@ function App(){
      <Router>
       <Header/>
         <Routes>
-          <Route exact path="/" element={<Homepage/>}/>
+          <Route path="/"  element={<Splash/>}/>
+          <Route exact path="/homepage" element={<Homepage/>}/>
           <Route path="/Get-started" element={<Homepage/>}/>
           <Route path="/login"  element={<Login/>}/> 
-          <Route path="/signup"  element={<Signup/>}/>  
-          <Route path="/"  element={<Splash/>}/> 
+          <Route path="/signup"  element={<Signup/>}/>   
         </Routes>  
       </Router> 
     </div>
