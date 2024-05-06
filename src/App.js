@@ -7,7 +7,7 @@ import { BrowserRouter as Router,Route , Routes, Link } from 'react-router-dom';
 import Homepage from  './screens/Homepage.js';
 import Login from './screens/login'
 import Signup from './screens/signup.js'
-// import Headbar from './screens/Headbar.js'
+import Headbar from './screens/Headbar.js'
 // import Splash from './screens/splash.js';
 // import './css/style.css'
 import Splash from './screens/splash1.js';
@@ -18,15 +18,17 @@ import background from './ui/background.png'
 
 function App(){
   return(
-    <div className='App'> 
-    <Homepage/>
-      {/* <Router>
+    <div className='App'>
+     <Router>
+      <Header/>
         <Routes>
+          <Route exact path="/" element={<Homepage/>}/>
+          <Route path="/Get-started" element={<Homepage/>}/>
           <Route path="/login"  element={<Login/>}/> 
           <Route path="/signup"  element={<Signup/>}/>  
           <Route path="/"  element={<Splash/>}/> 
         </Routes>  
-      </Router> */}
+      </Router> 
     </div>
   );
 };
