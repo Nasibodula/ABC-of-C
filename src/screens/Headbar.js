@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import '../css/sample.css';
+import '../css/style.css'
 
 function Headbar() {
   const [nav, setnav] = useState([
